@@ -1,0 +1,31 @@
+
+Instrucciones:
+
+Dada una cadena s que contiene solo los caracteres: "(){}[]"
+Determine si la cadena de entrada es válida
+
+Una cadena de entrada es válida si:
+ * Los corchetes abiertos, se cierran con el mismo tipo de corchetes.
+ * Los corchetes abiertos, se cierran en el orden correcto
+ * Cada parentesis cerrado, tiene un parentesis abierto correspondiente del mismo tipo.
+ 
+Ejemplo	Entrada	Salida
+   1		s = "()"	true
+   2		s = "[()]"	true
+   3		s = "{[()]}"	true
+   4		s = "{}()[]"	true
+   5		s = "[(])"	false
+   6		s = "}()"	false
+   7		s = "{]"	false
+   
+Requerimientos:
+
+ * Resolver el ejercicio solo con tus conocimientos
+ * Usar el lenguaje de programación Java
+ * Fecha limite de entrega sabado 17 de septiembre del 2022 antes de las 12 pm
+ * Crear la clase: 
+public class Solution {
+	public boolean isValid(String s) {
+		// Aquí va tu código
+	}
+}
