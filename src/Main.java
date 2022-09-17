@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.stream.Stream;
+
 /**
  * 
  * @author antonio
@@ -12,7 +15,7 @@ public class Main {
 		String e4 = "{}()[]";
 		String e5 = "[(])";	
 		String e6 = "}()";	
-		String e7 = "{]";
+		String e7 = "{]";	
 		String e8 = "{[([{}])]{[]({})}([[]])}";
 		String e9 = "()[{}]";
 		String e10 = " (  {  [  ]  }  ) ";
@@ -25,7 +28,6 @@ public class Main {
 		System.out.println(s.isValid(e5));
 		System.out.println(s.isValid(e6));
 		System.out.println(s.isValid(e7));
-
 		System.out.println(s.isValid(e8));
 		System.out.println(s.isValid(e9));
 		System.out.println(s.isValid(e10));
