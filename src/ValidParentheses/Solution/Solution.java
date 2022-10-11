@@ -1,10 +1,12 @@
+package Solution;
+
 /**
- * En esta clase se encuentra el método que resuelve el ejercicio "Paréntesis válidos".
+ * En esta clase se encuentra el método que resuelve el ejercicio "Valid Parentheses".
  * 
  * @author antonio
  * 
  */
-class Solution {
+public class Solution {
 
 	/**
 	 * Este método contiene el algoritmo que resuelve el ejercicio.
